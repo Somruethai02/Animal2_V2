@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.rtc.somruethaianusa.animal.MainActivity"
-    android:background="@drawable/egg">
+    android:background="@drawable/zoo">
 
     <TextView
         android:text="@string/titleMain"
@@ -37,9 +37,8 @@
             android:gravity="center_vertical">
 
             <TextView
-                android:text="@string/cat1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:id="@+id/textView2"
                 android:layout_weight="1"
                 android:textSize="@dimen/h2"
@@ -49,9 +48,8 @@
                 android:clickable="true" />
 
             <TextView
-                android:text="@string/cat2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:id="@+id/textView3"
                 android:layout_weight="1"
                 android:textSize="@dimen/h2"
@@ -68,9 +66,8 @@
             android:gravity="center_vertical">
 
             <TextView
-                android:text="@string/cat3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:id="@+id/textView4"
                 android:layout_weight="1"
                 android:textSize="@dimen/h2"
@@ -80,9 +77,8 @@
                 android:clickable="true" />
 
             <TextView
-                android:text="@string/cat4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:id="@+id/textView5"
                 android:layout_weight="1"
                 android:textSize="@dimen/h2"
